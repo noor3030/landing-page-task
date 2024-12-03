@@ -8,6 +8,7 @@ module.exports = {
     "./app.vue",
     "./error.vue",
   ],
+  safelist: ['material-icons'], 
   theme: {
     extend: {},
   },
