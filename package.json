@@ -12,6 +12,7 @@
   "dependencies": {
     "material-icons": "^1.13.12",
     "nuxt": "^3.14.1592",
+    "nuxt-marquee": "^1.0.4",
     "vue": "latest",
     "vue-router": "latest"
   },
