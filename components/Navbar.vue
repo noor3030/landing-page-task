@@ -16,7 +16,7 @@ const pages = [
 </script>
 
 <template>
-  <nav class="px-4 py-6">
+  <nav class="px-4 py-8">
     <div class="flex justify-between items-center">
       <span
         class="material-icons text-white cursor-pointer"
@@ -30,7 +30,7 @@ const pages = [
       class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50"
     >
       <div
-        class="fixed left-0 py-6 top-0 w-64 h-full bg-background shadow-lg z-50"
+        class="fixed left-0 py-8 top-0 w-64 h-full bg-background shadow-lg z-50"
       >
         <div class="px-4">
           <span
