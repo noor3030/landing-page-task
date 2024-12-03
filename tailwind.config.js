@@ -10,7 +10,16 @@ module.exports = {
   ],
   safelist: ['material-icons'], 
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary:"#7D4283",
+        onBackground:"#4F4D4D",
+        description:"#646A69",
+        onPrimary:"#FFFFFF",
+        background:"#1A1A1A",
+
+      }
+    },
   },
   plugins: [],
 }
