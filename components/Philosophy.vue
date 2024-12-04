@@ -87,7 +87,7 @@ onBeforeUnmount(() => {
     <p class="text-base text-description font-extralight">
       Elevate your brand with our comprehensive marketing solutions, including
       Digital Marketing, Content Creation, and Social Media Strategy. Enhance
-      visibility through expert SEO and PPC management,
+      visibility through expert SEO and PPC management
     </p>
     <div class="grid grid-cols-2 gap-5 counter-section">
       <div v-for="(counter, index) in counters" :key="index">
