@@ -25,7 +25,6 @@ const obj2 = ref(0);
 const obj3 = ref(0);
 const obj4 = ref(0);
 
-// Animation function
 function animateValue(
   obj: { value: number },
   start: number,
@@ -44,7 +43,6 @@ function animateValue(
   window.requestAnimationFrame(step);
 }
 
-// Intersection Observer callback
 function handleIntersection(entries: IntersectionObserverEntry[]) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -52,7 +50,7 @@ function handleIntersection(entries: IntersectionObserverEntry[]) {
       animateValue(obj2, 0, counters[1].number, 5000);
       animateValue(obj3, 0, counters[2].number, 5000);
       animateValue(obj4, 0, counters[3].number, 5000);
-      observer?.disconnect(); // Stop observing after triggering
+      observer?.disconnect(); 
     }
   });
 }
