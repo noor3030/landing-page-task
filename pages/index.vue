@@ -15,6 +15,7 @@
         <Charts />
         <News />
         <Pricings />
+        <Clients />
       </div>
     </div>
   </div>
