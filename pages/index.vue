@@ -15,6 +15,7 @@
         <Services />
         <Philosophy />
         <Charts />
+        <News />
       </div>
     </div>
 
