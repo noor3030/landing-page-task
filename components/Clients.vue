@@ -50,13 +50,13 @@ const next = () => {
             v-for="(client, index) in clients"
             :key="index"
             :class="[
-              'flex-shrink-0 w-full bg-black rounded-lg p-4 text-white flex flex-col space-y-4 mr-4 transition-transform duration-500',
-              currentIndex === index ? 'scale-105' : 'scale-95',
+              'flex-shrink-0 w-full bg-black rounded-lg p-4 text-white flex flex-col space-y-4 mr-4 md:px-10 transition-transform duration-500',
+             
             ]"
           >
             <img :src="client.image" alt="" class="w-10" />
             <h1 class="font-medium">{{ client.name }}</h1>
-            <p class="w-[250px] text-sm">{{ client.description }}</p>
+            <p class="w-[250px] text-sm md:w-full md:pr-4">{{ client.description }}</p>
           </div>
         </div>
       </div>
