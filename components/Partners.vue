@@ -8,9 +8,9 @@ const images = [bnw, cib, huawei, nasa];
 </script>
 
 <template>
-  <div class="text-center flex flex-col space-y-4 lg:space-y-8">
+  <div class="text-center flex flex-col space-y-4 lg:space-y-10">
     <h1
-      class=" text-white font-extralight text-2xl"
+      class=" text-white font-extralight text-2xl  lg:text-[48px] lg:font-light"
     >
       Our partners
     </h1>
