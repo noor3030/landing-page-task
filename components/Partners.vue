@@ -8,13 +8,13 @@ const images = [bnw, cib, huawei, nasa];
 </script>
 
 <template>
-  <div class="text-center flex flex-col space-y-4">
+  <div class="text-center flex flex-col space-y-4 lg:space-y-8">
     <h1
       class=" text-white font-extralight text-2xl"
     >
       Our partners
     </h1>
-    <NuxtMarquee>
+    <NuxtMarquee class="mx-0 px-0" autoFill pauseOnHover>
       <img
         v-for="image in images"
         :src="image"
@@ -24,5 +24,3 @@ const images = [bnw, cib, huawei, nasa];
     </NuxtMarquee>
   </div>
 </template>
-
-<style scoped></style>

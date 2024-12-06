@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="bg-primary p-6 flex flex-col space-y-20">
+  <div class="bg-primary p-6 flex flex-col space-y-20 mt-60 md:p-8">
     <div class="text-center text-white text-xl flex flex-col space-y-8">
       <h1>What are you waiting for ?</h1>
       <p class="text-base font-extralight">

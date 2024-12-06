@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="flex lg:justify-between lg:content-between lg:items-center lg:px-20"
+    class="flex px-4 md:px-8 lg:justify-between lg:content-between lg:items-center lg:px-20"
   >
     <div
       class="flex flex-col space-y-4 text-center lg:text-left lg:w-1/2 lg:space-y-6"

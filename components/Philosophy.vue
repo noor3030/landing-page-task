@@ -75,8 +75,8 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="flex flex-col space-y-4 px-4 text-left">
-    <ul class="list-disc px-4 border-b border-b-white pb-2">
+  <div class="flex flex-col space-y-4 px-4 md:px-8 text-left">
+    <ul class="list-disc px-4  border-b border-b-white pb-2">
       <li class="text-primary text-left">The company's philosophy</li>
     </ul>
     <h1 class="text-3xl text-primary">

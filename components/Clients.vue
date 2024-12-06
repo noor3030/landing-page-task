@@ -38,7 +38,7 @@ const next = () => {
 </script>
 
 <template>
-  <div class="flex flex-col  bg-primary p-4">
+  <div class="flex flex-col  bg-primary p-4 md:p-8">
     <h1 class="text-white font-extralight text-2xl text-center">Our clients opinions</h1>
     <div class="relative w-full  h-[400px] flex items-center">
       <div class="overflow-hidden relative rounded-lg">

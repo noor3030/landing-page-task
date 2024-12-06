@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div >
-   
-    <div class="flex flex-col space-y-4 text-center px-4 bg-none" >
+  <div class="relative w-full h-full ">
+    <img src="/Lines.svg" alt="" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="relative flex flex-col space-y-4 text-center px-4 md:px-8 bg-none">
       <h1 class="text-2xl text-white font-extralight">About us</h1>
       <p class="text-white font-extralight text-base">
         Welcome to

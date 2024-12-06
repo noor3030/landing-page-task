@@ -23,7 +23,7 @@ const news = [
 </script>
 
 <template>
-  <div class="px-4 flex flex-col space-y-8">
+  <div class="px-4 flex flex-col space-y-8 md:px-8">
     <h1 class="text-white font-extralight text-2xl text-center">News</h1>
     <div class="flex flex-col space-y-8">
       <img src="../public/news-images/news1.png" alt="" />

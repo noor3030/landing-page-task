@@ -1,5 +1,5 @@
 <template>
-    <div class="px-4 flex flex-col space-y-4">
+    <div class="px-4 flex flex-col space-y-4 md:px-8">
       <h1 class="text-white font-extralight text-2xl text-center">Our Charts</h1>
 
       <div class="p-4 bg-[#1E1E1E] rounded-lg shadow-md mb-8">

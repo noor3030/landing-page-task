@@ -44,7 +44,7 @@ const sections = [
 </script>
 
 <template>
-  <div class="px-4 flex flex-col space-y-4">
+  <div class="px-4 flex flex-col space-y-4 md:px-8">
     <h1 class="text-center font-bold text-2xl text-white">
       Simple pricing for your Business
     </h1>

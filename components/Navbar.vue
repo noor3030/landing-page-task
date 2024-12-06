@@ -16,7 +16,7 @@ const pages = [
 </script>
 
 <template>
-  <nav class="px-4 py-10 lg:pb-24 lg:px-20">
+  <nav class="px-4 py-10 md:px-8 lg:pb-24 lg:px-20">
     <!-- desktop nav -->
     <div class="lg:flex justify-between items-center hidden">
       <img src="../public/logo/logo.png" alt="logo" class="w-24" />
