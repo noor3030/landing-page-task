@@ -35,8 +35,10 @@ const news = [
       </button>
     </div>
 
-    <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between ">
-      <div class="flex flex-col space-y-8 lg:w-8/12">
+    <div
+      class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:justify-between"
+    >
+      <div class="flex flex-col space-y-8 lg:w-7/12	">
         <img src="../public/news-images/news1.png" alt="" />
         <div class="flex space-x-2">
           <button class="bg-white rounded-3xl p-2 font-extralight">
@@ -57,11 +59,11 @@ const news = [
           technological innovation.
         </p>
       </div>
-      <div class="lg:flex lg:flex-col lg:w-1/4 lg:space-y-10">
+      <div class="lg:flex lg:flex-col lg:w-1/3 lg:space-y-10">
         <div v-for="item in news">
-          <div class="flex space-x-4  ">
+          <div class="flex space-x-4 ">
             <img :src="item.image" alt="" class="w-28 h-28 lg:w-48 lg:h-48" />
-            <div class="flex flex-col space-y-8 ">
+            <div class="flex flex-col space-y-2 lg:space-y-8">
               <h1 class="text-base text-white font-light">{{ item.title }}</h1>
               <div class="flex space-x-2 pb-4">
                 <button class="bg-white rounded-3xl p-1 font-extralight">
