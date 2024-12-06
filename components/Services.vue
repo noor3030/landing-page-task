@@ -44,7 +44,7 @@ const services = [
         v-for="service in services"
         class="flex flex-col justify-center items-center text-center space-y-4"
       >
-        <div class="bg-white rounded-2xl p-1 w-full">
+        <div class="bg-white rounded-2xl p-1 w-full flex items-center justify-center content-center">
           <div
             class="bg-primary rounded-full flex justify-center items-center w-32 h-32"
           >
