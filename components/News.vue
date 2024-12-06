@@ -59,9 +59,9 @@ const news = [
           technological innovation.
         </p>
       </div>
-      <div class="lg:flex lg:flex-col lg:w-1/3 lg:space-y-10">
+      <div class="lg:flex lg:flex-col lg:w-1/3 lg:space-y-10 ">
         <div v-for="item in news">
-          <div class="flex space-x-4 ">
+          <div class="flex space-x-4  md:mb-4">
             <img :src="item.image" alt="" class="w-28 h-28 lg:w-48 lg:h-48" />
             <div class="flex flex-col space-y-2 lg:space-y-8">
               <h1 class="text-base text-white font-light">{{ item.title }}</h1>
