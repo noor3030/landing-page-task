@@ -69,7 +69,7 @@ const sections = [
 
           <div
             v-if="openSection === section.title"
-            class="bg-white text-primary text-sm rounded-md p-1"
+            class="bg-white text-primary text-[9.17px] rounded-md p-1 font-extralight items-center flex"
           >
             {{ section.save }}
           </div>

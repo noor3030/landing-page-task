@@ -4,6 +4,6 @@
   <Html>
     <Navbar />
     <slot />
-    <Footer />
   </Html>
 </template>
+

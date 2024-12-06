@@ -15,7 +15,10 @@
         <Charts />
         <News />
         <Pricings />
-        <Clients />
+        <div class="flex flex-col space-y-96">
+          <Clients />
+          <Footer />
+        </div>
       </div>
     </div>
   </div>
